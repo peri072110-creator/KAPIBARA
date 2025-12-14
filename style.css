@@ -178,7 +178,7 @@
   .scrol {
     display: flex;
     justify-content: space-between;
-   
+
     align-items: center;
     margin: 90px 0 0 0;
 
@@ -198,7 +198,7 @@
       display: flex;
       align-items: center;
       flex-direction: column;
-      
+
       .men {
         border-radius: 50%;
         border: solid 3px #3772ff;
@@ -257,11 +257,11 @@
   .scroll {
     display: flex;
     justify-content: space-between;
-    
+
     align-items: center;
     flex-wrap: wrap;
     margin: 90px 0 0 0;
-    
+
     .ret {
       font-size: 40px;
       font-weight: 400;
@@ -356,97 +356,90 @@
         .b-t {
           display: flex;
           flex-direction: column;
-          input{
+          input {
             margin: 10px;
           }
         }
-        .bb{
-            width: 901px;
+        .bb {
+          width: 901px;
 
-            p{
-                color: #888888;
-                font-size: 16px;
-                line-height: 30px;
+          p {
+            color: #888888;
+            font-size: 16px;
+            line-height: 30px;
+          }
+          ul {
+            li {
+              font-size: 16px;
+              color: #888888;
+              line-height: 30px;
             }
-            ul{
-                li{
-                    font-size: 16px;
-                    color: #888888;
-                    line-height: 30px;
-                }
-            }
+          }
         }
       }
     }
   }
 }
 
-
-
-
-
-
-
 #explol {
   margin: 150px 0 0 0;
 }
 .explol {
   .bee {
-   .ionka{
-     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    .nava{
+    .ionka {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      .nava {
         display: flex;
         gap: 10px;
-        button{
-            color: #888888;
-            border: 1px solid #888888;
-            border-radius: 5px;
-            width: 70px;
-            height: 30px;
-            background: white;
-            transition: 1s;
+        button {
+          color: #888888;
+          border: 1px solid #888888;
+          border-radius: 5px;
+          width: 70px;
+          height: 30px;
+          background: white;
+          transition: 1s;
         }
-        button:hover{
+        button:hover {
           background: #3772ff;
           color: white;
         }
-    }
-    .big-nava{
+      }
+      .big-nava {
         display: flex;
         gap: 20px;
-        .w{
-         width: 120px;
-         height: 50px;
-         font-size: 16px;
-         border-radius: 8px;
-         color: white;
-         background: #3772FF;
-         transition: 1s;
-         border: none;
+        .w {
+          width: 120px;
+          height: 50px;
+          font-size: 16px;
+          border-radius: 8px;
+          color: white;
+          background: #3772ff;
+          transition: 1s;
+          border: none;
         }
-        .w:hover{
-               color: #3772FF;
-         background:  white;
+        .w:hover {
+          color: #3772ff;
+          background: white;
         }
-        .x{
-               width: 120px;
-         height: 50px;
-         font-size: 16px;
-         border-radius: 8px;
-         color: white;
-         background: #9757D7;
-         transition: 1s;
-         border: none;
+        .x {
+          width: 120px;
+          height: 50px;
+          font-size: 16px;
+          border-radius: 8px;
+          color: white;
+          background: #9757d7;
+          transition: 1s;
+          border: none;
         }
-          .x:hover{
-               color: #9757D7;
-         background:  white;
+        .x:hover {
+          color: #9757d7;
+          background: white;
         }
+      }
     }
-   }
-  
   }
   .scrolle {
     display: flex;
@@ -454,7 +447,7 @@
     flex-wrap: wrap;
     align-items: center;
     margin: 50px 0 0 0;
-    
+
     .ret {
       font-size: 40px;
       font-weight: 400;
@@ -507,112 +500,97 @@
   }
 }
 
-
-
-
-
-
-
-
-
-
-
-#colect{
-    margin: 100px 0;
+#colect {
+  margin: 100px 0;
 }
-.colect{
-    h1{
-        margin: 20px 0;
-    }
-    .fd{
-        display: flex;
-        justify-content: space-between;
-    .im{
-        .pi{
-
-        display: flex;
-        gap : 10px;
-        img{
-            border-radius: 10px;
-        }
-        .img3{
-            display: flex;
-            flex-direction: column;
-            gap : 10px;
-        }}
-        .textt{
-            h2{
-                margin: 5px;
-            }
-            .mn{
-                display: flex;
-                align-items: center;
-                gap: 10px;
-                h3{
-                    font-size: 12px;
-                    span{
-                        color: gray;
-                    }
-                }
-            }
-        }
-    
-}
-}
-}
-
-
-
-#crypto{
-    background: #F6F7F8;
-    height: 500px;
-    .crypto{
-        img{
-            position: absolute;
-            z-index: 1;
-
-        }
-        .cry{
-            display: flex;
-            align-items: center;
-             gap : 80px;
-            margin: 70px 0 5px 70px;
-            position: absolute;
-            z-index: 2;
-            h4{
-                font-size: 14px;
-                color: white;
-                font-weight: 600;
-            }
-            h1{
-                font-size: 40px;
-                color: white;
-                line-height: 65px;
-            }
-            .btn{
-                display: flex;
-                gap: 40px;
-                button{
-                    background: #3772FF;
-                    color: white;
-                    width: 160px;
-                    height: 50px;
-                    border-radius: 7px;
-                    border: none;
-                }
-            }
-        }
-    }
-}
-
-
-.foot{
+.colect {
+  h1 {
+    margin: 20px 0;
+  }
+  .fd {
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    .lolo{
-        width: 270px;
-        .ioni {
+    .im {
+      .pi {
+        display: flex;
+        gap: 10px;
+        img {
+          border-radius: 10px;
+        }
+        .img3 {
+          display: flex;
+          flex-direction: column;
+          gap: 10px;
+        }
+      }
+      .textt {
+        h2 {
+          margin: 5px;
+        }
+        .mn {
+          display: flex;
+          align-items: center;
+          gap: 10px;
+          h3 {
+            font-size: 12px;
+            span {
+              color: gray;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+#crypto {
+  background: #f6f7f8;
+  height: 500px;
+  .crypto {
+    img {
+      position: absolute;
+      z-index: 1;
+    }
+    .cry {
+      display: flex;
+      align-items: center;
+      gap: 80px;
+      margin: 70px 0 5px 70px;
+      position: absolute;
+      z-index: 2;
+      h4 {
+        font-size: 14px;
+        color: white;
+        font-weight: 600;
+      }
+      h1 {
+        font-size: 40px;
+        color: white;
+        line-height: 65px;
+      }
+      .btn {
+        display: flex;
+        gap: 40px;
+        button {
+          background: #3772ff;
+          color: white;
+          width: 160px;
+          height: 50px;
+          border-radius: 7px;
+          border: none;
+        }
+      }
+    }
+  }
+}
+
+.foot {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  .lolo {
+    width: 270px;
+    .ioni {
       display: flex;
       align-items: center;
 
@@ -621,38 +599,38 @@
         font-size: 30px;
       }
     }
-   p{
-    color: #888888;
-    line-height: 25px;
-    font-size: 16px;
-    font-weight: 200;
-   } 
-   .ioio{
-        margin: 10px 0;
+    p {
+      color: #888888;
+      line-height: 25px;
+      font-size: 16px;
+      font-weight: 200;
+    }
+    .ioio {
+      margin: 10px 0;
 
-    ion-icon{
+      ion-icon {
         color: gray;
         transition: 1s;
         font-size: 30px;
-        border: 1px solid gray ;
+        border: 1px solid gray;
         border-radius: 50%;
-    }
-    ion-icon:hover{
-        color: #3772FF;
-        border: 1px solid #3772FF ;
-
-    }
-   }
-     button {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        border: 1px solid#CCCCCC;
-        border-radius: 7px;
-        .ti {
-          font-size: 30px;
-          color: #447af7;
-        }
       }
+      ion-icon:hover {
+        color: #3772ff;
+        border: 1px solid #3772ff;
+      }
+    }
+    button {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border: 1px solid#CCCCCC;
+      border-radius: 7px;
+      .ti {
+        font-size: 30px;
+        color: #447af7;
+      }
+    }
+  }
 }
-}
+ 
